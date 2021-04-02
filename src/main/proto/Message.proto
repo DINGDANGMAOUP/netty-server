@@ -1,0 +1,9 @@
+
+syntax = "proto3"; //protobuf语法有 proto2和proto3两种，这里指定 proto3
+
+option java_package = "kuroneko.fun.netty.server.proto";
+option java_outer_classname = "MessageBase";
+message Message {
+    string content = 1;
+
+}
