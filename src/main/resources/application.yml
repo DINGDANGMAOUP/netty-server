@@ -3,8 +3,11 @@ server:
 spring:
     application:
         name: netty-server-demo
+
 netty:
     server:
         config:
             ip: 127.0.0.1
             port: 8089
+rocketmq:
+    name-server: 172.17.0.2:9876
